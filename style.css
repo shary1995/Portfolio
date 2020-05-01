@@ -1,0 +1,579 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    
+}
+
+html {
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    min-height: 100vh;
+}
+
+body {
+    background-color: #f3f3f3;
+    min-height: 100vh;
+}
+
+h3 {
+    font-family: "Catamaran";
+    font-weight: 600;
+    font-size: 50px;
+    color: rgb(44, 43, 43);
+    text-align: center;
+    padding-top: 60px;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+h3::after {
+    content: "";
+    height: 2px;
+    width: 5%;
+    background: rgb(44, 43, 43);
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 2.5%);
+}
+
+@media only screen and (max-width: 510px) {
+
+h3 {
+    font-weight: 500;
+    font-size: 40px;
+  }
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: #0002;
+    box-shadow: 2px 2px 8px rgb(61, 60, 60);
+}
+
+header .header-home {
+    font-family: Catamaran;
+    font-size: 24px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px 0;
+    line-height: 30px;
+    padding: 0px 20px 0px 40px;
+    border-right: 2px solid #fff;
+    float: left;
+    color: cadetblue;
+    display: block;
+}
+
+header .header-home:hover {
+    color: #fff;
+    transition: 0.5s;
+}
+
+header nav ul{
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    line-height: 65px;
+    float: right;
+    padding-right: 20px;
+}
+
+header nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 16px;
+    border: solid transparent;
+}
+
+header nav ul li a{
+    font-family: Catamaran;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+header nav ul li a:hover{
+    border: 3px solid #fff;
+    transition: 0.6s;
+    padding: 5px 2px;
+    background-color: #fff;
+    color: cadetblue;
+    border-radius: 10px;
+
+}
+
+
+
+@media only screen and (max-width: 550px) {
+ 
+    header .header-home {
+        font-size: 22px;
+        font-weight: 800;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0px;
+        border-right: none;
+    }
+    
+
+    header nav ul{
+        line-height: 50px;
+        float: none;
+    }
+
+    header nav ul li {
+        padding: 0px 10px;
+    }
+
+    header nav ul li a:hover{
+        border: none;
+        background-color: transparent;
+    }
+
+}
+
+
+
+/*INDEX*/
+
+.index-banner {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('iceland-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: block;
+}
+
+.vertical-center {
+    width: 100%;
+    text-align: center;
+    margin-top: 230px;
+ }
+    
+
+.index-banner h2 {
+    font-family: "Catamaran";
+    font-weight: 750;
+    font-size: 60px;
+    color: #fff;
+    line-height: 60px;
+    text-align: center;
+    text-shadow: 3px 3px 10px #111;
+}
+
+.index-banner h1 {
+    margin: 20px;
+    font-family: "Cormorant Garamond";
+    font-weight: 100;
+    font-size: 28px;
+    font-style: italic;
+    line-height: 40px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+}
+
+.button {
+    border: 2px solid #f3f3f3;
+    background-color: #0001;
+    border-radius: 40px;
+    color: #fff;
+    font-family: "Catamaran";
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 100px;
+    text-align: center;
+    padding: 0px 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: cadetblue;
+}
+
+@media only screen and (max-width: 1000px) {
+
+
+    .index-banner h2 {
+        font-weight: 500;
+        font-size: 55px;
+    }
+    
+    .index-banner h1 {
+        font-weight: 70;
+        font-size: 25px;
+    }
+    
+    .button {
+        font-weight: 400;
+        font-size: 25px;
+    }
+    
+}
+
+@media only screen and (max-width: 510px) {
+    .vertical-center {
+        margin-top: 180px;
+    }
+
+    .index-banner h2 {
+        font-weight: 450;
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+    .index-banner h1 {
+        font-weight: 65;
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .button {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 70px;
+    }
+}
+
+
+
+
+/*Main Content*/
+
+/*About Section*/
+
+.about-section {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f0eeee;
+}
+
+.about-section-content {
+    width: 50%;
+    float: left;
+}
+
+.about-section h4 {
+    font-family: "Catamaran";
+    font-weight: 500;
+    font-size: 35px;
+    color: rgb(44, 43, 43);
+    margin: 80px 20px 0px 80px;
+}
+
+.about-section p {
+    font-family: "Cormorant Gramond";
+    font-weight: 300;
+    font-size: 20px;
+    color: grey;
+    margin: 40px 80px;
+    line-height: 40px;
+}
+
+.img-about-section {
+    width: 50%;
+    float: right;
+    margin-top: 60px;
+}
+
+.about-section img {
+    width: 250px;
+    height: 440px;
+    margin-left: 140px;
+}
+
+@media screen and (max-width: 950px) {
+    .about-section img {
+        width: 300px;
+        height: 500px;
+        margin-left: 60px;
+    }
+
+    .about-section h4 {
+        margin-top: 60px;
+    }
+    
+    .about-section p {
+        margin-top: 20px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+
+    .about-section-content {
+        width: 100%;
+    }
+
+    .about-section h4 {
+        font-weight: 400;
+        font-size: 32px;
+        margin: 60px 0px 0px 60px;
+    }
+    
+    .about-section p {
+        font-weight: 300;
+        font-size: 18px;
+        margin: 40px 60px;
+    }
+
+    .img-about-section {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    .about-section h4 {
+        margin: 40px 0px 0px 60px;
+    }
+
+    .about-section p {
+        margin: 20px 60px;
+        line-height: 28px;
+        font-size: 16px;
+    }
+}
+
+
+/*Portfolio Section*/
+
+.portfolio-section {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #e9e6e6;
+}
+
+.portfolio-section p {
+    font-family: "Catamaran";
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(44, 43, 43);
+}
+
+.portfolio-links {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    margin-top: 130px;
+}
+
+.gallery-img {
+    flex-basis: 200px;
+    padding: 0 10px 0 10px;
+}
+
+.gallery-img img{
+    width: 100%;
+    height: 70%;
+}
+
+.gallery-img:hover {
+    opacity: .7;
+    transition: .7s;
+}
+
+.gallery-img p{
+    margin: 10px;
+    font-family: "Cormorand Garmond";
+    font-size: 20px;
+    font-weight: 400px;
+    text-align: center;
+}
+
+@media screen and (max-width: 440px) {
+
+    .gallery-img {
+        flex-basis: 180px;
+    }
+}
+
+/*Contacts Section*/
+
+.contacts-section {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("contacts-background.JPG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: block;
+}
+
+
+.contacts-section-content {
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+ }
+
+.contacts-section-content p {
+    font-family: "Catamaran";
+    font-weight: 500;
+    font-size: 30px;
+    color: #f8efef;
+    line-height: 35px;
+    text-align: center;
+    text-shadow: 3px 3px 10px #111;
+}
+
+.contacts-section-info {
+    margin-top: 40px;
+}
+
+.contacts-section-info p {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 10px;
+    text-align: left;
+    padding-left: 37%;
+    word-spacing: 50px;
+    color: #f8efef;
+}
+
+.contacts-section-info p a{
+    border: 2px solid #dad1d1;
+    padding: 0 5px;
+    background-color: none;
+    border-radius: 10px;
+    color: #fff;
+    font-family: "Catamaran";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100px;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+}
+
+.contacts-section-info p a:hover {
+    background-color: rgba(245, 245, 245, 0.5);
+}
+
+.contacts-section-info .mobile-version-contact {
+    display: none;
+}
+
+.contacts-logo {
+    width: 100%;
+    padding: 200px 0px 20px 0px;
+}
+
+.contacts-logo a{
+    padding: 20px;
+}
+
+.contacts-logo img{
+    width: 40px;
+}
+
+.contacts-logo img:hover{
+    opacity: 0.5;
+
+}
+
+
+@media screen and (max-width: 550px) {
+    .contacts-section-content p {
+        font-weight: 500;
+        font-size: 25px;
+    }
+
+    .contacts-section-info p {
+        font-weight: 400;
+        font-size: 20px;
+        padding-left: 20%;
+        line-height: 30px;
+    }
+
+
+    .contacts-section-info p a {
+        display: block;
+        line-height: 50px;
+        text-align: left;
+        border: none;
+        color: #dad1d1;
+    }
+
+    .contacts-section-info p a:hover {
+        background-color: transparent;
+        color: #fff;
+        transition: 0.5s;
+    }
+
+    .contacts-logo img{
+        width: 30px;
+    }
+    
+}
+
+
+/*FOOTER*/
+
+
+footer {
+    width: 100%;
+    min-height: 70px;
+    padding-top: 30px;
+    background-color: #111;
+    overflow: hidden;
+}
+
+
+footer ul{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    width: fit-content;
+}
+
+footer ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 16px;
+    
+}
+
+footer ul li a {
+font-family: Catamaran;
+font-size: 20px;
+color: #fff;
+}
+
+.footer-copy {
+   width: 100%;
+   background-color:rgb(238, 234, 234);
+   margin-bottom: 20px;
+}
+
+footer p {
+   display: block;
+   margin: 0 auto;
+   width: fit-content;
+   font-family: Catamaran;
+   font-size: 15px;
+   font-weight: 400;
+   color: #111;
+}
+
+@media screen and (max-width: 405px) {
+
+footer ul li {
+     display: block;
+     text-align: center;
+     padding: 5px;
+    }
+
+    footer ul li a {
+        font-size: 16px;
+        }
+}
