@@ -370,8 +370,8 @@ header nav ul li a:hover{
 
 .gallery-img {
     flex-basis: 200px;
-    flex-grow: 2;
-    padding: 0 20px;
+    padding: 0 30px;
+    justify-content: space-around;
 }
 
 .gallery-img img{
