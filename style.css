@@ -8,12 +8,12 @@
 html {
     overflow-y: scroll;
     scroll-behavior: smooth;
-    min-height: 100vh;
+    height: 100%;
 }
 
 body {
     background-color: #f3f3f3;
-    min-height: 100vh;
+    height: 100%;
 }
 
 h3 {
