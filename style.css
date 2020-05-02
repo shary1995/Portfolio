@@ -363,7 +363,6 @@ header nav ul li a:hover{
     width: 100%;
     display: flex;
     flex-flow: row wrap;
-    flex-grow: 2;
     justify-content: center;
     align-content: center;
     margin-top: 130px;
@@ -371,7 +370,8 @@ header nav ul li a:hover{
 
 .gallery-img {
     flex-basis: 200px;
-    padding: 0 10px 0 10px;
+    flex-grow: 2;
+    padding: 0 20px;
 }
 
 .gallery-img img{
