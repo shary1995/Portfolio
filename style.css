@@ -363,6 +363,7 @@ header nav ul li a:hover{
     width: 100%;
     display: flex;
     flex-flow: row wrap;
+    flex-grow: 2;
     justify-content: center;
     align-content: center;
     margin-top: 130px;
