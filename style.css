@@ -337,11 +337,11 @@ header nav ul li a:hover{
     }
     
     .about-section h4 {
-        margin: 30px 0px 0px 40px;
+        margin: 30px 0px 0px 30px;
     }
 
     .about-section p {
-        margin: 18px 40px;
+        margin: 18px 30px;
         line-height: 26px;
         font-size: 16px;
     }
