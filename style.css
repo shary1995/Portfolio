@@ -145,7 +145,6 @@ header nav ul li a:hover{
     width: 100%;
     min-height: 100vh;
     background-image: url('iceland-background.jpg');
-    opacity: 0.9;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
