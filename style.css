@@ -145,6 +145,7 @@ header nav ul li a:hover{
     width: 100%;
     min-height: 100vh;
     background-image: url('iceland-background.jpg');
+    background: #0000008a;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -171,7 +172,7 @@ header nav ul li a:hover{
 .index-banner h1 {
     margin: 20px;
     font-family: "Cormorant Garamond";
-    font-weight: 100;
+    font-weight: 200;
     font-size: 28px;
     font-style: italic;
     line-height: 40px;
@@ -426,7 +427,7 @@ header nav ul li a:hover{
     font-family: "Catamaran";
     font-weight: 500;
     font-size: 30px;
-    color: #f8efef;
+    color: #fff;
     line-height: 35px;
     text-align: center;
     text-shadow: 3px 3px 10px #111;
@@ -443,7 +444,7 @@ header nav ul li a:hover{
     text-align: left;
     padding-left: 37%;
     word-spacing: 50px;
-    color: #f8efef;
+    color: #fff;
 }
 
 .contacts-section-info p a{
