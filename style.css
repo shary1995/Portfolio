@@ -79,13 +79,13 @@ header nav ul{
     width: fit-content;
     line-height: 65px;
     float: right;
-    padding-right: 20px;
+    padding-right: 100px;
 }
 
 header nav ul li {
     display: inline-block;
     list-style: none;
-    padding: 0 16px;
+    padding: 0 20px;
     border: solid transparent;
 }
 
@@ -124,6 +124,7 @@ header nav ul li a:hover{
     header nav ul{
         line-height: 50px;
         float: none;
+        padding-right: 20px;
     }
 
     header nav ul li {
@@ -303,7 +304,7 @@ header nav ul li a:hover{
     
     .about-section p {
         margin-top: 20px;
-        line-height: 30px;
+        line-height: 31px;
     }
 }
 
@@ -322,7 +323,7 @@ header nav ul li a:hover{
     .about-section p {
         font-weight: 300;
         font-size: 18px;
-        margin: 40px 60px;
+        margin: 40px 55px 40px 60px;
     }
 
     .img-about-section {
@@ -330,7 +331,7 @@ header nav ul li a:hover{
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 320px) {
 
     .about-section-content {
         margin-bottom: 30px;
@@ -342,8 +343,7 @@ header nav ul li a:hover{
 
     .about-section p {
         margin: 16px 30px;
-        line-height: 23px;
-        font-size: 16px;
+        line-height: 25px;
     }
 }
 
