@@ -343,7 +343,8 @@ header nav ul li a:hover{
 
     .about-section p {
         margin: 16px 30px;
-        line-height: 25px;
+        line-height: 23px;
+        font-size: 18px;
     }
 }
 
